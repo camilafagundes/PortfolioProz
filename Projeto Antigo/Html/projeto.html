@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-item {
+            background-color: white;
+            margin-bottom: 1em;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project-item:hover {
+            background-color: #f9f9f9;
+            cursor: pointer;
+        }
+        .project-details {
+            display: none;
+            margin-top: 1em;
+            border-top: 1px solid #ddd;
+            padding-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Projetos</h1>
+    </header>
+    <main>
+        <ul class="project-list">
+            <li class="project-item">
+                <h2>Projeto 1</h2>
+                <div class="project-details">
+                    <p>Detalhes do Projeto 1...</p>
+                </div>
+            </li>
+            <li class="project-item">
+                <h2>Projeto 2</h2>
+                <div class="project-details">
+                    <p>Detalhes do Projeto 2...</p>
+                </div>
+            </li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
+    </main>
+    <script>
+        document.querySelectorAll('.project-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const details = item.querySelector('.project-details');
+                if (details.style.display === 'block') {
+                    details.style.display = 'none';
+                } else {
+                    details.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
