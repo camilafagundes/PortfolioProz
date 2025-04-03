@@ -8,14 +8,15 @@ Este projeto tem como objetivo criar um **portfolio interativo** para desenvolve
 
 - **🏠 Home** – Apresentação do desenvolvedor.
 - **👨‍💻 Sobre Mim** – Experiência e habilidades.
+- **📝 Habilidades** – Postagens sobre tecnologia e tendências do setor.
 - **📂 Projetos** – Lista interativa com detalhes sobre cada um.
-- **📝 Blog** – Postagens sobre tecnologia e tendências do setor.
 - **📬 Contato** – Formulário para mensagens e links para redes sociais.
 
 ## 🔧 Tecnologias Utilizadas
 
 - **HTML/CSS** – Estrutura e estilização responsiva do site.
 - **JavaScript** – Animações e interatividade para uma melhor experiência do usuário.
+- **Bootstrap** - Ferramenta gratuita para desenvolvimento HTML, CSS e JS.
 
 ## 🚀 Como Executar o Projeto
 
