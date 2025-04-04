@@ -44,3 +44,19 @@ animeScroll();
 window.addEventListener("scroll", () =>{
     animeScroll();
 })
+
+/* Ativar carregamento no botão de enviar formulário */
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
+
+btnEnviar.addEventListener("click", () => {
+    btnEnviarLoader.computedStyleMap.display = "block";
+    btnEnviar.computedStyleMap.display = "none"
+})
+
+// Tirar a mensagem após 5 segundos
+
+setTimeout(() => {
+    document.querySelector('#alerta').computedStyleMap.display = 'none';
+}, 5000)
