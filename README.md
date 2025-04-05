@@ -6,10 +6,11 @@ Este projeto tem como objetivo criar um **portfolio interativo** para desenvolve
 
 ## 📌 Telas do Site
 
-- **🏠 Home** – Apresentação do desenvolvedor.
-- **👨‍💻 Sobre Mim** – Experiência e habilidades.
-- **📝 Habilidades** – Postagens sobre tecnologia e tendências do setor.
-- **📂 Projetos** – Lista interativa com detalhes sobre cada um.
+- **🏠 Home** – Capa de apresentação do Portfólio.
+- **👨‍💻 Sobre Mim** – Breve apresentação do desenvolvedor.
+- **📝 Habilidades** – Experiência e habilidades.
+- **Currículo** - Postagens detalhadas sobre últimos cargos exercidos.
+- **📂 Projetos** – Cards interativos com links para os projetos.
 - **📬 Contato** – Formulário para mensagens e links para redes sociais.
 
 ## 🔧 Tecnologias Utilizadas
@@ -17,6 +18,8 @@ Este projeto tem como objetivo criar um **portfolio interativo** para desenvolve
 - **HTML/CSS** – Estrutura e estilização responsiva do site.
 - **JavaScript** – Animações e interatividade para uma melhor experiência do usuário.
 - **Bootstrap** - Ferramenta gratuita para desenvolvimento HTML, CSS e JS.
+- **Flask** - Design simples, que dá aos desenvolvedores a liberdade de selecionar os elementos que desejam e personalizar seus aplicativos para atender às suas necessidades.
+- **Heroku** - Plataforma de aplicativos em nuvem para implantação, gerenciamento e dimensionamento de aplicativos.
 
 ## 🚀 Como Executar o Projeto
 
@@ -34,7 +37,6 @@ Este projeto tem como objetivo criar um **portfolio interativo** para desenvolve
 
 ✅ Design responsivo para diferentes dispositivos.  
 ✅ Animações e efeitos interativos para navegação fluida.  
-✅ Seção de blog para postagens sobre tecnologia.  
 ✅ Formulário de contato funcional.  
 
 ## 🤝 Contribuidores
@@ -44,6 +46,10 @@ Este projeto foi desenvolvido com a colaboração dos seguintes integrantes:
 - **Alberto Talayer** - [Github](https://github.com/CarlosTalayer)
 - **Camila Fagundes** - [Github](https://github.com/camilafagundes)
 - **Patrícia A. R. Figueira** - [GitHub](https://github.com/PatthyPotter)
+
+## 📜 Referências
+
+Este projeto foi inspirado tanto nos materiais estudados na [PROZ](https://inscricao.prozeducacao.com.br/home-2024/) como nas vídeoaulas do [ThiCode](https://www.youtube.com/watch?v=pzsBEuiZ2I4&list=PLR8JXremim5DU70e3x_rYhClgMTzTyv4m)
 
 ## 📜 Licença
 
