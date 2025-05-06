@@ -3,10 +3,6 @@ from flask_mail import Mail, Message
 from dotenv import load_dotenv
 import os
 
-basedir = os.path.abspath(os.path.dirname(__file__))
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'database', 'app.db')
-
-
 load_dotenv()
 
 app = Flask(__name__)
